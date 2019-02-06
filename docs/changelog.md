@@ -1,5 +1,14 @@
 <h1>Change Log</h1>
 
+### 0.3.1
+
+* Bugfix for page titles (#64)
+* Add FAQ (docs)
+* Architecture diagram (docs #40)
+* Translations info (docs #58)
+
+Breaking changes: For any sites that have overridden the theme, they will need to add `{% include multilingual.html %}` at the top of each page as this has been moved out of `head.html`.
+
 ## 0.3.0
 
 * Changelog added (#47)
